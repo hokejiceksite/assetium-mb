@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>E-maily – Martin Bílek</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h2>✉️ E-maily</h2>
+    <nav>
+      <a href="index.html">🏠 Dashboard</a>
+      <a href="klienti.html">👥 Klienti</a>
+      <a href="firmy.html">🏢 Firmy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h3>📬 Nový e-mail</h3>
+      <form id="mailForm">
+        <label>Skupina: <input id="group"></label>
+        <label>Předmět: <input id="subject"></label>
+        <label>Text: <textarea id="body"></textarea></label>
+        <button type="submit">Odeslat (demo)</button>
+      </form>
+    </section>
+    <section>
+      <h3>📜 Historie</h3>
+      <div id="history"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
